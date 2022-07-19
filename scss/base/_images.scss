@@ -4,4 +4,9 @@
  
   img {
     width: auto;
+    transition: transform .2s ease-in-out;
+    &:hover {
+      //box-shadow: 0 0 5px $color-grey-light;
+      transform: scale(1.05);
+    }
   }
